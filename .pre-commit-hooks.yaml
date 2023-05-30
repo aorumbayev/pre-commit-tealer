@@ -1,7 +1,7 @@
 - id: pre-commit-tealer
   name: Run Tealer static analyzer against .teal files in specified folder
   description: Tealer static analysis on all .teal files in specified folder
-  entry: pre-commit-tealer
+  entry: tealer
   language: python
   types: [python]
   pass_filenames: false
